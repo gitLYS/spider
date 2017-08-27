@@ -1,0 +1,18 @@
+[INFO  - 2017-08-26T02:01:47.482Z] GhostDriver - Main - running on port 51187
+[INFO  - 2017-08-26T02:01:48.418Z] Session [850192d0-8a02-11e7-b7c0-158063980c68] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-08-26T02:01:48.418Z] Session [850192d0-8a02-11e7-b7c0-158063980c68] - page.customHeaders:  - {}
+[INFO  - 2017-08-26T02:01:48.418Z] Session [850192d0-8a02-11e7-b7c0-158063980c68] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-08-26T02:01:48.418Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 850192d0-8a02-11e7-b7c0-158063980c68
+[ERROR - 2017-08-26T02:02:14.329Z] Session [850192d0-8a02-11e7-b7c0-158063980c68] - page.onError - msg: TypeError: null is not an object (evaluating 't.style')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-08-26T02:02:14.330Z] Session [850192d0-8a02-11e7-b7c0-158063980c68] - page.onError - stack:
+  s (http://static.blog.csdn.net/scripts/csdn_blog_detail.min.js:2)
+  handle (http://static.blog.csdn.net/scripts/csdn_blog_detail.min.js:2)
+  success (http://static.blog.csdn.net/scripts/csdn_blog_detail.min.js:2)
+  c (http://static.blog.csdn.net/scripts/blog_static_head.min.js:2)
+  fireWith (http://static.blog.csdn.net/scripts/blog_static_head.min.js:2)
+  n (http://static.blog.csdn.net/scripts/blog_static_head.min.js:3)
+  onreadystatechange (http://static.blog.csdn.net/scripts/blog_static_head.min.js:3)
+
+  phantomjs://platform/console++.js:263 in error

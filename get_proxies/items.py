@@ -13,12 +13,14 @@ class GetProxiesItem(scrapy.Item):
     # name = scrapy.Field()
     pass
 
+#爬取代理ip
 class Proxy(scrapy.Item):
     ip=scrapy.Field()
     port=scrapy.Field()
     flag=scrapy.Field()
     type=scrapy.Field()
 
+#爬取豆瓣电影概要
 class Movie(scrapy.Item):
     directors=scrapy.Field()
     rate=scrapy.Field()
@@ -28,3 +30,7 @@ class Movie(scrapy.Item):
     casts=scrapy.Field()
     cover=scrapy.Field()
     id=scrapy.Field()
+
+#爬取网易云音乐歌单以及歌单下的所有音乐
+class Playlist():
+    href=scrapy.Field()

@@ -8,8 +8,11 @@
 from scrapy import signals
 import random
 from mysql import connector as cnn
-import bs4
+from bs4 import BeautifulSoup
 from get_proxies.settings import HTTP_PROXY
+from get_proxies.get_ip import GetIp
+import requests
+import os
 
 class GetProxiesSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
@@ -48,37 +51,6 @@ class GetProxiesSpiderMiddleware(object):
         pass
 
     def process_start_requests(start_requests, spider):
-        # Called with the start requests of the spider, and works
-        # similarly to the process_spider_output() method, except
-        # that it doesn’t have a response associated.
-        #
-        # Must return only requests (not items).
-        # config={
-        #     'user':'root',
-        #     'password':'lys',
-        #     'host':'127.0.0.1',
-        #     'port':3306,
-        #     'database':'lys'
-        #     }
-        # proxies=[]
-        # conn=cnn.connect(**config)
-        # cur=conn.cursor()
-        # try:
-        #     sql='select ip,port from proxies where type=1 limit 1000'
-        #     cur.execute(sql)
-        #     result=cur.fetchall()
-        #     for item in result:
-        #         proxies.append(item[0]+':'+item[1])
-        # except:
-        #     cur.close()
-        #     conn.close()
-        # cur.close()
-        # conn.close()
-        #
-        # ip=random.choice(proxies)
-        # print(ip)
-        # print('-----------------------------------------------------------------------------------\n---------------------\n-------')
-        # start_requests.meta['proxy']=ip
 
         for r in start_requests:
             yield r
@@ -88,29 +60,39 @@ class GetProxiesSpiderMiddleware(object):
 
 
 
-class ProxyMiddleWare(object):
+class TorProxyMiddleWare(object):
     def process_request(self,request,spider):
-        # config={
-        #     'user':'root',
-        #     'password':'lys',
-        #     'host':'127.0.0.1',
-        #     'port':3306,
-        #     'database':'lys'}
-        # proxies=[]
-        # conn=cnn.connect(**config)
-        # cur=conn.cursor()
-        # try:
-        #     sql='select ip,port from proxies where flag=1 limit 1000'
-        #     cur.execute(sql)
-        #     result=cur.fetchall()
-        #     for item in result:
-        #         proxies.append(item[0]+':'+item[1])
-        # except:
-        #     cur.close()
-        #     conn.close()
-        # cur.close()
-        # conn.close()
-        #
-        # ip=random.choice(proxies)
-        # print('-----------------------------------------------------------------------------------\n---------------------\n-------')
-        request.meta['proxy']=HTTP_PROXY
+        request.meta['proxy']=HTTP_PROXY  #使用tor做代理
+
+
+class XiciProxyMiddleWare(object):
+    def process_request(self,request,spider):
+       header={
+        'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+        }
+       file_name='/home/lys/project/get_proxies/get_proxies/代理ip.txt'
+       with open(file_name,'r') as f:
+           proxies=f.readlines()
+
+       err_time=0
+       while True:
+           proxy=random.choice(proxies).strip()
+           proxy_http={'http':proxy}
+           s=requests.get('https://www.lagou.com/',headers=header,proxies=proxy_http)
+           print([BeautifulSoup(s.text,'lxml').h1.text])
+           print('correct:'+proxy)
+           if BeautifulSoup(s.text,'lxml').h1.text.strip()=='拉勾网':
+               break
+           err_time=err_time+1
+           print('error:'+proxy)
+           if err_time==3:
+               os.remove(file_name)
+               GetIp().get_ip()
+               continue
+
+       request.meta['proxy']='http://'+proxy
+
+
+
+
+

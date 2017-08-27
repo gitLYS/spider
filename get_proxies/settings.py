@@ -53,12 +53,14 @@ COOKIES_ENABLED = False
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
-    #'get_proxies.middlewares.MyCustomDownloaderMiddleware': 543,
+    # 'get_proxies.middlewares.MyCustomDownloaderMiddleware': 543,
     # 'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware':543,
-    # 'get_proxies.middlewares.ProxyMiddleWare':125
+    # 'get_proxies.middlewares.TorProxyMiddleWare':125
     # 'scrapy_crawlera.CrawleraMiddleware': 600
+    'get_proxies.middlewares.XiciProxyMiddleWare':125
 }
 HTTP_PROXY ='http://127.0.0.1:8787'
+# REDIRECT_ENABLED = False
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
 #EXTENSIONS = {
@@ -96,3 +98,8 @@ HTTP_PROXY ='http://127.0.0.1:8787'
 # CRAWLERA_USER = '70ceca5e38cf46949609c633e8e07a30'
 # CRAWLERA_PASS = ''
 # CRAWLERA_PRESERVE_DELAY = True
+
+
+# AJAXCRAWL_ENABLED = True
+
+

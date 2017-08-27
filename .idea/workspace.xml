@@ -2,41 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fff757e-34ea-4c26-a44f-6e3e4559cea6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/get_proxies.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/items.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/middlewares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/pipelines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/spiders/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/spiders/douban.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/spiders/get_ip.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/get_proxies/spiders/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doubanMovieTest.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/items.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/middlewares.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/pipelines.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/spiders/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/spiders/douban.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/spiders/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/get_proxies/spiders/yanzheng.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.egg-info/PKG-INFO" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.egg-info/SOURCES.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.egg-info/dependency_links.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.egg-info/entry_points.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project.egg-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrapy.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/get_proxies/spiders/test.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_proxies/items.py" afterPath="$PROJECT_DIR$/get_proxies/items.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_proxies/middlewares.py" afterPath="$PROJECT_DIR$/get_proxies/middlewares.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_proxies/settings.py" afterPath="$PROJECT_DIR$/get_proxies/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" afterPath="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,33 +22,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+      <file leaf-file-name="lagouwang.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_proxies/spiders/lagouwang.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+            <state relative-caret-position="-14">
+              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="douban.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/get_proxies/spiders/douban.py">
+      <file leaf-file-name="get_ip.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="118" column="28" lean-forward="false" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py">
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/get_proxies/middlewares.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="400">
+              <caret line="82" column="33" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/requests/api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -96,6 +86,8 @@
     <findStrings>
       <find>down</find>
       <find>downl</find>
+      <find>http_</find>
+      <find>REDIRECT_ENABLED</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,25 +100,35 @@
         <option value="$PROJECT_DIR$/get_proxies/spiders/mysql_test.py" />
         <option value="$PROJECT_DIR$/j.ipynb" />
         <option value="$PROJECT_DIR$/proxies.csv" />
-        <option value="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" />
         <option value="$PROJECT_DIR$/get_proxies/downloadmiddlewares.py" />
         <option value="$PROJECT_DIR$/get_proxies/downloadermiddlewares.py" />
-        <option value="$PROJECT_DIR$/get_proxies/items.py" />
-        <option value="$PROJECT_DIR$/get_proxies/middlewares.py" />
         <option value="$PROJECT_DIR$/get_proxies/spiders/yanzheng.py" />
-        <option value="$PROJECT_DIR$/get_proxies/settings.py" />
-        <option value="$PROJECT_DIR$/get_proxies/spiders/test.py" />
         <option value="$PROJECT_DIR$/get_proxies/spiders/douban.py" />
+        <option value="$PROJECT_DIR$/get_proxies/items.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/xicidaili.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/test1.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/test.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/douban_details.py" />
+        <option value="$PROJECT_DIR$/get_proxies/test.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/urls.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" />
+        <option value="$PROJECT_DIR$/get_proxies/spiders/lagouwang.py" />
+        <option value="$PROJECT_DIR$/get_proxies/get_ip.py" />
+        <option value="$PROJECT_DIR$/get_proxies/settings.py" />
+        <option value="$PROJECT_DIR$/get_proxies/middlewares.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="1855" />
-    <option name="height" value="1084" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="118" />
+    <option name="width" value="1853" />
+    <option name="height" value="1076" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -160,6 +162,11 @@
               <item name="get_proxies" type="462c0819:PsiDirectoryNode" />
               <item name="get_proxies" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="get_proxies" type="b2602c69:ProjectViewProjectNode" />
+              <item name="get_proxies" type="462c0819:PsiDirectoryNode" />
+              <item name="project.egg-info" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="get_proxies" type="b2602c69:ProjectViewProjectNode" />
@@ -197,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mysql">
+  <component name="RunManager" selected="Python.get_ip (1)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -345,6 +352,23 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration name="get_ip (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_proxies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="get_proxies" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_proxies/get_ip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="get_ip" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +382,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="get_proxies" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_proxies/spiders/get_ip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="middlewares" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_proxies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="get_proxies" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_proxies/middlewares.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,13 +420,36 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/get_proxies" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="get_proxies" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/get_proxies/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.get_ip" />
       <item index="1" class="java.lang.String" itemvalue="Python.mysql" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.get_ip (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.middlewares" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.mysql" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.get_ip (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.middlewares" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mysql" />
       </list>
     </recent_temporary>
   </component>
@@ -393,15 +457,15 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="67" y="118" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25261998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28792056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12765957" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17795753" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -417,93 +481,48 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/get_proxies/spiders/yanzheng.py</url>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="5922">
+          <caret line="329" column="27" lean-forward="false" selection-start-line="329" selection-start-column="27" selection-end-line="329" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+    <entry file="file://$PROJECT_DIR$/get_proxies/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        <state relative-caret-position="1188">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
-            <element signature="e#0#33#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#33#0" expanded="false" />
+            <element signature="e#168#194#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        <state relative-caret-position="630">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/j.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxies.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/Untitled1.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/downloadermiddlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrapinghub.yml">
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/lagouwang.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -513,63 +532,245 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/get_proxies/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="115" column="40" lean-forward="true" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
+        <state relative-caret-position="1188">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="e#168#194#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="325" column="21" lean-forward="false" selection-start-line="325" selection-start-column="21" selection-end-line="325" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="10" lean-forward="false" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/douban_details.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="7" lean-forward="false" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="44" column="2" lean-forward="false" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/j.ipynb" />
+    <entry file="file://$PROJECT_DIR$/proxies.csv" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/Untitled1.ipynb" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/downloadermiddlewares.py" />
+    <entry file="file://$PROJECT_DIR$/scrapinghub.yml" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/yanzheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="132" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="132" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip1.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/xicidaili.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test1.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/代理ip.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/douban_details.py" />
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/wangyiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/douban.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="30" column="29" lean-forward="false" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="97" column="34" lean-forward="false" selection-start-line="97" selection-start-column="34" selection-end-line="97" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="326" column="36" lean-forward="false" selection-start-line="326" selection-start-column="36" selection-end-line="326" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/get_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="56" column="56" lean-forward="true" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/get_proxies/spiders/get_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+        <state relative-caret-position="180">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/yanzheng.py">
+    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/lagouwang.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="-14">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/test.py">
+    <entry file="file://$USER_HOME$/.PyCharmEdu4.0/system/python_stubs/17760565/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="261">
+          <caret line="2819" column="8" lean-forward="false" selection-start-line="2819" selection-start-column="8" selection-end-line="2819" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_proxies/spiders/douban.py">
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="118" column="28" lean-forward="false" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="145">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_proxies/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="82" column="33" lean-forward="false" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

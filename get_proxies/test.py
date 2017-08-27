@@ -1,3 +1,26 @@
+# import requests
+# import re
+# from bs4 import BeautifulSoup
+# from lxml import etree
+# import random
+# header={
+#         'User-Agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
+#         }
+# s = requests.get('http://www.xicidaili.com/nn/',headers=header)
+# # bsObj=BeautifulSoup(s.text,'lxml')
+#
+# # all=bsObj.findAll("tr",{"class":"odd"})
+# html=etree.HTML(s.text)
+# ips=html.xpath('//*[@class="country"][1]/following-sibling::td[1]/text()')
+# ports=html.xpath('//*[@class="country"][1]/following-sibling::td[2]/text()')
+# proxies=[]
+# for i in range(0,len(ips)):
+#     proxies.append(ips[i]+':'+ports[i])
+# with open('代理ip.txt','a') as f:
+#     for i in proxies:
+#         f.writelines(i+'\n')
+
+# print(s.text)
 # from mysql import connector as cnn
 # import random
 # config={
@@ -23,9 +46,14 @@
 # conn.close()
 
 # sql='insert movies values("%s","%s","%s","%s","%s","%s")' % ('a\'aa',"1",'title','url','casts','id')
-a='aaa\'a'
-sql=a.replace('\'','\\\'')
-print(sql)
+# a='aaa\'a'
+# sql=a.replace('\'','\\\'')
+# print(sql)
+# from urllib import parse
+# print(parse.quote('R&B/Soul'))
+
+
+# print('\'','华语，欧美，日语，韩语，粤语，小语种，流行，摇滚，民谣，电子，舞曲，说唱，轻音乐，爵士，乡村，R&B/Soul，古典，民族，英伦，金属，朋克，蓝调，雷鬼，世界音乐，拉丁，另类/独立，New Age，古风，后摇，Bossa Nova，清晨，夜晚，学习，工作，午休，下午茶，地铁，驾车，运动，旅行，散步，酒吧，怀旧，清新，浪漫，性感，伤感，治愈，放松，孤独，感动，兴奋，快乐，安静，思念，影视原声，ACG，校园，游戏，70后，80后，90后，网络歌曲，KTV，经典，翻唱，吉他，钢琴，器乐，儿童，榜单，00后'.replace('，','\',\'')+'\'')
 
 # import json
 #
@@ -38,48 +66,34 @@ print(sql)
 # #     print(a)
 # if len(datas['data'])==20:
 #         print('______')
-# user_agent_list = [
-#         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 "
-#         "(KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1",
-#         "Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 "
-#         "(KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11",
-#         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.6 "
-#         "(KHTML, like Gecko) Chrome/20.0.1092.0 Safari/536.6",
-#         "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 "
-#         "(KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6",
-#         "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.1 "
-#         "(KHTML, like Gecko) Chrome/19.77.34.5 Safari/537.1",
-#         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 "
-#         "(KHTML, like Gecko) Chrome/19.0.1084.9 Safari/536.5",
-#         "Mozilla/5.0 (Windows NT 6.0) AppleWebKit/536.5 "
-#         "(KHTML, like Gecko) Chrome/19.0.1084.36 Safari/536.5",
-#         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
-#         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3",
-#         "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 "
-#         "(KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3",
-#         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 "
-#         "(KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24",
-#         "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 "
-#         "(KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24"
-#        ]
+
+
 #
-# import random
-# user_agent=random.choice(user_agent_list)
-# print('\''+user_agent+'\'')
+# proxies=[]
+# with open('代理ip.txt','r') as f:
+#     proxies=f.readlines()
+# print('111.155.124.94:8123\n'.strip())
+#
+# a=('https://movie.douban.com/subject/6959179/',)
+# print(a[0])
 
+# from selenium import  webdriver
+# browser=webdriver.PhantomJS('/media/lys/ubuntu数据盘/软件/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+# print(browser.get('http://blog.csdn.net/tengdazhang770960436/article/details/41320079'))
 
+# if 'www.lagou.com' in 'https://www.lagou.com/zhaopin/Java/2/':
+#     print('a')
+#
+# formdata={
+#             'isValidate':True,
+#             'username':'18819477257',
+#             'password':'42d1a809459c115d3ecc94b4a846850e',
+#             'request_form_verifyCode':'',
+#             'submit':''
+#         }
 
+import hashlib
+m=hashlib.md5()
+
+m.update('836193873'.encode('utf-8'))
+print(m.hexdigest())
